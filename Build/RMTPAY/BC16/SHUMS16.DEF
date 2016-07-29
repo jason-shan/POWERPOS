@@ -1,0 +1,13 @@
+NAME           SHUMS16
+DESCRIPTION    'Call to 32bit SHUMS32.DLL or SAND32.DLL'
+EXETYPE        WINDOWS
+CODE           PRELOAD MOVEABLE DISCARDABLE
+DATA           PRELOAD MOVEABLE SINGLE
+HEAPSIZE       4096
+
+IMPORTS
+	kernel.LoadLibraryEx32W
+	kernel.FreeLibrary32W
+	kernel.GetProcAddress32W
+	kernel.GetVDMPointer32W
+	kernel._CallProcEx32W
