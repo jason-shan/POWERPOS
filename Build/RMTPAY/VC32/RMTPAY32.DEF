@@ -1,5 +1,0 @@
-
-LIBRARY        RMTPAY32
-DESCRIPTION    'RMTPAY32 DLL for Windows'
-EXPORTS
-	W32_RemotePay
